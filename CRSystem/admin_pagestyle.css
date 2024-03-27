@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #118f84;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    align-items: center;
+}
+
+.logo a {
+    font-size:30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family: "Arial", sans-serif;
+    padding: 20px; /* เพิ่ม padding-top 2rem เพื่อเพิ่มระยะห่างด้านบน */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.Room {
+    background-color: #ffffff;
+}
+
+.Room-con {
+    display: flex;
+}
+
+.Room-info {
+    width: 100%;
+    padding: 2rem 0;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+.Room-info h1 {
+    font-size: 30px;
+    font-family: "Arial", sans-serif; 
+}
+
+.Room-info h3 {
+    margin-top: 1.5rem;
+    font-size: 20px;
+    font-family: "Arial", sans-serif; 
+}
+
+.Room-info p {
+    margin: 1rem 0;
+    font-family: "Arial", sans-serif; 
+    font-size: 20px;
+}
+
+.Room-info .Resume-btn {
+    display: inline-block;
+    background-color: #118f84;
+    color: #fff;
+    font-size: 25px;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+.Room-img img {
+    width: 120%;
+    padding: 3rem ;
+    margin-left: 10px;
+    
+}
+
+.Silpakorn-con img {
+    width: 10%;
+    padding: 1rem ;
+    margin-left: 51%;
+}
+
+.blog-view h4{
+    margin: 3rem 0 ;
+}
+
+.blog-view p {
+    margin: 3rem 0 ;
+}
+
+.blog-view a {
+    display: inline-block;
+    color: #181616;
+    background-color: #ffe016;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 40px; 
+    margin: 20px 0; 
+    border-radius: 20px;
+    font-family: "Arial", sans-serif; 
+}
+
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #0c0c0c;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-bottom {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+.footer-bottomHome {
+    background-color: #118f84;
+    color: #f0f0f0;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top:130px;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

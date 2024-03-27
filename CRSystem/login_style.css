@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #118f84;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    align-items: center;
+}
+
+.logo a {
+    font-size:30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family: "Arial", sans-serif;
+    padding: 20px; /* เพิ่ม padding-top 2rem เพื่อเพิ่มระยะห่างด้านบน */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.Room {
+    background-color: #ffffff;
+}
+
+.Room-con {
+    display: flex;
+}
+
+.Room-info {
+    width: 100%;
+    padding: 2rem 0;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+    font-size: 20px;
+}
+
+.Room-info h3 {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.Room-info p {
+    margin: 1rem 0;
+}
+
+.Room-info .Resume-btn {
+    display: inline-block;
+    background-color: #118f84;
+    color: #fff;
+    font-size: 25px;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+.Room-img img {
+    width: 120%;
+    padding: 4rem ;
+    margin-left: 10%
+    
+}
+
+.Silpakorn-con img {
+    width: 10%;
+    padding: 1rem ;
+    margin-left: 51%;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.blog-pass a {
+    display: inline-block;
+    color: #001c19;
+    background-color: #f3f2ea;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 40px; /* เพิ่มระยะห่างรอบตัวอักษร 10px ด้านบนและด้านล่าง, 20px ด้านซ้ายและด้านขวา */
+    margin: 20px 30px; /* เพิ่มระยะห่างระหว่างตัวอักษรและกรอบข้อความ 20px ด้านบนและด้านล่าง */
+    border-radius: 20px;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #0c0c0c;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-bottom {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 6rem;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+.footer-bottomHome {
+    background-color: #118f84;
+    color: #f0f0f0;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 1px;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+.square {
+    width: 650px;
+    height: 350px;
+    background-color: #118f84;
+    position: center;
+    top: 100px;
+    bottom: 100px;
+    left: 200px;
+    right: 200px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column; /* เพิ่ม flex-direction เพื่อให้ input field เรียงต่อกัน */
+    align-items: left;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px; /* เพิ่ม padding เพื่อให้ห่างจากขอบ */
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.input-field {
+    width: 45%;
+    border-radius: 20px;
+    border-color: #118f84;
+    border-width: 0.5px;
+    margin-top: 5px; /* ระยะห่างระหว่าง input fields */
+    padding: 10px; /* เพิ่ม padding ใน input field */
+}
+
+.input-container label {
+    margin-left: 185px;
+    margin-top: 10px;
+    font-size: 17px;
+   
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69vh;
+}
+
+.submit-btn {
+    margin-left: 184px;
+    background-color: #ffe016;
+    display: inline-block;
+    color: #001c19;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 40px; /* เพิ่มระยะห่างรอบตัวอักษร 10px ด้านบนและด้านล่าง, 20px ด้านซ้ายและด้านขวา */
+    margin: 15px 180px; /* เพิ่มระยะห่างระหว่างตัวอักษรและกรอบข้อความ 20px ด้านบนและด้านล่าง */
+    border-radius: 20px;
+    border-width: 0;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+form {
+    width: 300px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #118f84;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #118f84;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+    color: #fa1212;
+}
+
+a:hover {
+    color: #000;
+}
+
+nav {
+    padding: -100px;
+    background-color: #118f84;
+    margin-top: 0; /* เพิ่มบรรทัดนี้เพื่อลบพื้นที่ว่างด้านบน */
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.Room-con {
+    display: flex;
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    align-items: center;
+}
+
+.logo a {
+    margin-bottom: -40px;
+    font-size:30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family: "Arial", sans-serif;
+    padding: 10px; /* เพิ่ม padding-top 2rem เพื่อเพิ่มระยะห่างด้านบน */
+}
+
+.footer-bottomHome {
+    background-color: #118f84;
+    color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    align-items: center;
+}
+
+.logo a {
+    font-size:30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family: "Arial", sans-serif;
+    padding: 20px; /* เพิ่ม padding-top 2rem เพื่อเพิ่มระยะห่างด้านบน */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Arial", sans-serif; /* เปลี่ยนฟอนต์เป็น Arial หรือฟอนต์ที่ต้องการ */
+    font-size: 20px;
+}
